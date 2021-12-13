@@ -3,3 +3,9 @@
     <map-marker *ngFor="let markerOption of markerList" [options]="markerOption">
     </map-marker>
 </google-map>
+
+<button (click)="showHoles()">Show Holes</button>
+<button (click)="showPokemon('pikachu')">pikachu</button>
+<button (click)="showPokemon('charmander')">charmander</button>
+<button (click)="showPokemon('bulbasaur')">bulbasaur</button>
+<button (click)="showPokemon('snorlax')">snorlax</button>

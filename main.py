@@ -24,7 +24,7 @@ def all():
     return send_file('pokemons.json')
 
 @app.route("/charmander")
-@app.route("/bullbasaur")
+@app.route("/bulbasaur")
 @app.route("/snorlax")
 @app.route("/pikachu")
 def pokemonRnd():
